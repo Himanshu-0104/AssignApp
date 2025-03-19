@@ -19,7 +19,7 @@ export default function ChatScreen({ route, user }) {
 
   const sendMessage = async () => {
     if (input.trim() === '') return;
-    const newMessage = { sender: user, text: input, timestamp: new Date().toLocaleTimeString() };
+    const newMessage = { sender: user, text: input, timestamp: new Date().toISOString() };
     const updatedMessages = [...messages, newMessage];
     setMessages(updatedMessages);
     await storeMessages(chatId, updatedMessages);
