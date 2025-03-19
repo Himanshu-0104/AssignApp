@@ -15,6 +15,9 @@ export default function UserDropdown({ user, setUser }) {
         setValue={setUser}
         items={USERS.map((u) => ({ label: u, value: u }))}
         dropDownDirection="BOTTOM"
+        dropDownContainerStyle={{
+          maxHeight: 750, 
+        }}
       />
     </View>
   );
