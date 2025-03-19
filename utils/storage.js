@@ -1,12 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-export const storeMessages = async (chatId, messages, currentUser) => {
-  const updatedMessages = messages.map(msg => ({
-    ...msg,
-    unread: msg.sender !== currentUser ? true : false,
-  }));
-
-  await AsyncStorage.setItem(`chat-${chatId}`, JSON.stringify(updatedMessages));
+export const storeMessages = async (chatId, messages) => {
+  await AsyncStorage.setItem(`chat-${chatId}`, JSON.stringify(messages));
 };
 
 export const getMessages = async (chatId) => {
