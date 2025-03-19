@@ -1,1 +1,1 @@
-export const USERS = ['Alice', 'Charlie', 'Rahul','Hima','Kiran','Ravi','Sai','Sri','Vijay','Vishnu'];
+export const USERS = ['Kishore','Alice', 'Charlie', 'Bob','Himanshu','Ravi'];

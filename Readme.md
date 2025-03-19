@@ -1,25 +1,25 @@
 
 
-# 📱 Chat App (Frontend Only)
+# Chat App (Frontend Only)
 
 A simple **Chat App** built with **React Native** and **Expo**. 
 This app allows users to switch between different logged-in users and chat individually, storing chat history locally using AsyncStorage.
 
 
-## 🚀 Features
+##  Features
 
-- ✅ **User Selection**: Dropdown in header (top-right) to select the active user.
-- ✅ **One-on-One Chat**: Send and receive messages based on the selected user.
-- ✅ **Message Persistence**: Chat history stored locally using `AsyncStorage`.
-- ✅ **Basic Chat UI**: Chat bubbles, timestamps, and easy-to-use interface.
-
-
-## 📸 Screenshots
+-  **User Selection**: Dropdown in header (top-right) to select the active user.
+-  **One-on-One Chat**: Send and receive messages based on the selected user.
+-  **Message Persistence**: Chat history stored locally using `AsyncStorage`.
+-  **Basic Chat UI**: Chat bubbles, timestamps, and easy-to-use interface.
 
 
+##  Screenshots
 
 
-## ⚙️ Technologies Used
+
+
+##  Technologies Used
 
 - **React Native**
 - **Expo**
@@ -28,7 +28,7 @@ This app allows users to switch between different logged-in users and chat indiv
 - **react-native-dropdown-picker**
 
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 ChatApp/
@@ -47,7 +47,7 @@ ChatApp/
 
 
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 ### Step 1: Clone the repository
 ```bash
@@ -69,7 +69,7 @@ npm start
 
 
 
-## 📖 Usage
+##  Usage
 
 - **Select Active User**: Use the dropdown at the top-right to switch between users.
 - **View Chats**: Click on any chat to view or send messages.
@@ -78,7 +78,7 @@ npm start
 
 
 
-## 📌 Requirements
+##  Requirements
 
 - Node.js (v14 or above)
 - Expo CLI (`npm install -g expo-cli`)
@@ -86,9 +86,9 @@ npm start
 
 
 
-## 📞 Author
+##  Author
 
-- **[Your Name](https://github.com/Himanshu-0104)**  
+- **[Himanshu-0104](https://github.com/Himanshu-0104)**  
 
 
 
