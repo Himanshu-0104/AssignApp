@@ -25,7 +25,7 @@ export default function App() {
 
         <Stack.Screen
           name="ChatScreen"
-          options={({ route }) => ({ title: route.params.chatUser })}
+          options={{ headerShown: false }}
         >
           {(props) => <ChatScreen {...props} user={user} />}
         </Stack.Screen>
